@@ -10,7 +10,7 @@ public class InnerDoor2 : MonoBehaviour
     public GameObject passwordPanel;    // 密码面板
     public InputField passwordInput;    // 输入框
     public Text feedbackText;           // 提示文本
-    public bool DoorStatus1 = GameStatus.isinner2Open;
+ 
 
     private string correctPassword = "35412";  // 正确密码
 
@@ -23,7 +23,7 @@ public class InnerDoor2 : MonoBehaviour
     // 点击门时触发
     private void OnMouseDown()
     {
-        if (!DoorStatus1)
+        if (!GameStatus.isinner2Open)
         {
             passwordPanel.SetActive(true);
             passwordInput.text = "";
@@ -45,6 +45,7 @@ public class InnerDoor2 : MonoBehaviour
             feedbackText.text = "Door is opened.";
             
             GameStatus.isinner2Open = true;
+            SceneManager.LoadScene("Blue2");
         }
         else
         {

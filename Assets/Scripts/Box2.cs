@@ -27,11 +27,8 @@ public class Box2 : MonoBehaviour
         if (!GameStatus.key3)
         {
             puzzlePanel.SetActive(true);
-            ///if (audioSource!= null)
-        {
-            ///audioSource.Play();
         }
-        }
+
         else
         {
             ShowDialog("Already have the key");

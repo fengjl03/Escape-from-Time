@@ -13,7 +13,7 @@ public class Box1 : MonoBehaviour
     public Text dialogText;            // 对话框文字
     public GameObject key;          // 钥匙（UI元素的话用RectTransform）
     public GameObject key2;
-    private string correctPassword = "5375"; // 正确密码
+    private string correctPassword = "2684"; // 正确密码
 
     void Start()
     {
@@ -32,7 +32,7 @@ public class Box1 : MonoBehaviour
         if (!GameStatus.key2)
         {
             passwordPanel.SetActive(true);
-            hintText.text = "Mind the direction of the swords.";
+            hintText.text = "4位数密码";
             passwordInput.text = "";
         }
         else
