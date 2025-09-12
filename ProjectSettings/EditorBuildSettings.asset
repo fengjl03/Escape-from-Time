@@ -18,8 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Blue2.unity
     guid: de9584a24cca0a945917a6f9f5980b97
   - enabled: 1
+    path: Assets/Scenes/White4.unity
+    guid: 6d3127e7b9f22124891743482cb9a9a7
+  - enabled: 1
     path: Assets/Scenes/Red2.unity
     guid: 48eb1197b57eff644be371fe7b89b68f
+  - enabled: 1
+    path: Assets/Scenes/EndScene1.unity
+    guid: 951997a4dcd2fdb4db6189b1a10e8c0d
   - enabled: 1
     path: Assets/Scenes/Blue4.unity
     guid: 6f8be5d56d7c3c34db807f784d898567

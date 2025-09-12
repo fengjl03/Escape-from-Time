@@ -68,6 +68,9 @@ public class WhiteDoors : MonoBehaviour
                     ShowMessage("Already visited");
                 }
                 break;
+            case 4:
+                SceneManager.LoadScene("White4");
+                break;
             case 0:
                 {
                     ShowMessage("Not the right time.");

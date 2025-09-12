@@ -77,8 +77,10 @@ public class ClockController : MonoBehaviour
         }
         else if (hour >= -3.833f && hour <= -3.666f)      // 3:40 - 3:50
         { time = 2; }
-        else if (hour >= -5.75f && hour <= -5.58f)   // 4:30 - 4:40
+        else if (hour >= -5.75f && hour <= -5.58f)   // 5:35 - 5:45
         { time = 3; }
+        else if (hour >= -8.833f && hour <= -8.666f)   // 8:40 - 8:50
+        { time = 4; }
         else { time = 0; }
     }
 
